@@ -185,8 +185,8 @@ def checkout_invalid():
     c=driver.find_element(by=By.CLASS_NAME, value='checkout').get_attribute('innerText')
     print(c)
 
-    checkout_invalid()
+   
 
-    checkout_valid()
+  
 checkout_valid()
 checkout_invalid()
